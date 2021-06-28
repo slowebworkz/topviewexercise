@@ -1,0 +1,38 @@
+/* colors */
+:root {
+  --main-bg-color: #fff;
+  --main-text-color: #5A5A5A;
+}
+
+/* fonts */
+:root {
+  --font-family: 'Open Sans', sans-serif;
+  --font-weight: 400;
+  --sm-font-size: 12.5px;
+  --line-height: 20px;
+}
+
+/* layout */
+:root {
+  --max-width: 375px;
+  --max-height: 667px;
+  --upper-quadrant: 185px;
+}
+
+html, body {
+  max-width: var(--max-width);
+  max-height: var(--max-height);
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+
+  background-color: var(--main-bg-color);
+}
+
+#___gatsby {
+  min-height: 100%;
+}
